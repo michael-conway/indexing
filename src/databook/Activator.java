@@ -9,7 +9,9 @@ import databook.listener.service.IndexingService;
 import databook.local.model.RDFDatabase;
 
 public class Activator implements BundleActivator {
+	@SuppressWarnings("rawtypes")
 	ServiceRegistration sr;
+	@SuppressWarnings("rawtypes")
 	ServiceRegistration inxSvc;
 	Indexer i;
 	RDFDatabase database;
